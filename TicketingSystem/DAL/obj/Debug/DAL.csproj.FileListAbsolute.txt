@@ -1,0 +1,6 @@
+C:\Users\HP\programming\SE\SE PE 2\TicketingSystem\TicketingSystem\DAL\bin\Debug\DAL.dll
+C:\Users\HP\programming\SE\SE PE 2\TicketingSystem\TicketingSystem\DAL\bin\Debug\DAL.pdb
+C:\Users\HP\programming\SE\SE PE 2\TicketingSystem\TicketingSystem\DAL\obj\Debug\DAL.csproj.AssemblyReference.cache
+C:\Users\HP\programming\SE\SE PE 2\TicketingSystem\TicketingSystem\DAL\obj\Debug\DAL.csproj.CoreCompileInputs.cache
+C:\Users\HP\programming\SE\SE PE 2\TicketingSystem\TicketingSystem\DAL\obj\Debug\DAL.dll
+C:\Users\HP\programming\SE\SE PE 2\TicketingSystem\TicketingSystem\DAL\obj\Debug\DAL.pdb

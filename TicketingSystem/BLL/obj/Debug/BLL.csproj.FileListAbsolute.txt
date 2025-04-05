@@ -1,0 +1,6 @@
+C:\Users\HP\programming\SE\SE PE 2\TicketingSystem\TicketingSystem\BLL\bin\Debug\BLL.dll
+C:\Users\HP\programming\SE\SE PE 2\TicketingSystem\TicketingSystem\BLL\bin\Debug\BLL.pdb
+C:\Users\HP\programming\SE\SE PE 2\TicketingSystem\TicketingSystem\BLL\obj\Debug\BLL.csproj.AssemblyReference.cache
+C:\Users\HP\programming\SE\SE PE 2\TicketingSystem\TicketingSystem\BLL\obj\Debug\BLL.csproj.CoreCompileInputs.cache
+C:\Users\HP\programming\SE\SE PE 2\TicketingSystem\TicketingSystem\BLL\obj\Debug\BLL.dll
+C:\Users\HP\programming\SE\SE PE 2\TicketingSystem\TicketingSystem\BLL\obj\Debug\BLL.pdb

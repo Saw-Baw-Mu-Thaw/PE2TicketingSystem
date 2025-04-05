@@ -1,0 +1,9 @@
+C:\Users\HP\programming\SE\SE PE 2\TicketingSystem\TicketingSystem\UI\bin\Debug\UI.exe.config
+C:\Users\HP\programming\SE\SE PE 2\TicketingSystem\TicketingSystem\UI\bin\Debug\UI.exe
+C:\Users\HP\programming\SE\SE PE 2\TicketingSystem\TicketingSystem\UI\bin\Debug\UI.pdb
+C:\Users\HP\programming\SE\SE PE 2\TicketingSystem\TicketingSystem\UI\obj\Debug\UI.csproj.AssemblyReference.cache
+C:\Users\HP\programming\SE\SE PE 2\TicketingSystem\TicketingSystem\UI\obj\Debug\UI.Properties.Resources.resources
+C:\Users\HP\programming\SE\SE PE 2\TicketingSystem\TicketingSystem\UI\obj\Debug\UI.csproj.GenerateResource.cache
+C:\Users\HP\programming\SE\SE PE 2\TicketingSystem\TicketingSystem\UI\obj\Debug\UI.csproj.CoreCompileInputs.cache
+C:\Users\HP\programming\SE\SE PE 2\TicketingSystem\TicketingSystem\UI\obj\Debug\UI.exe
+C:\Users\HP\programming\SE\SE PE 2\TicketingSystem\TicketingSystem\UI\obj\Debug\UI.pdb
