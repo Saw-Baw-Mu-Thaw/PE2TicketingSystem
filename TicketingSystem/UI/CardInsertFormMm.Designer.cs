@@ -75,6 +75,7 @@
             this.Controls.Add(this.pbLogo);
             this.Name = "CardInsertFormMm";
             this.Text = "Card Insert";
+            this.Load += new System.EventHandler(this.CardInsertFormMm_Load);
             ((System.ComponentModel.ISupportInitialize)(this.pbLogo)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();

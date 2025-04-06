@@ -66,6 +66,7 @@
             this.Controls.Add(this.pbLogo);
             this.Name = "QRPayment";
             this.Text = "QR Payment";
+            this.Load += new System.EventHandler(this.QRPayment_Load);
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pbLogo)).EndInit();
             this.ResumeLayout(false);

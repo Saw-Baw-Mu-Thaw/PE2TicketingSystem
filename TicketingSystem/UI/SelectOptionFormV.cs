@@ -16,5 +16,26 @@ namespace UI
         {
             InitializeComponent();
         }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+            CardInsertFormV civ = new CardInsertFormV();
+            civ.Show();
+            this.Hide();
+        }
+
+        private void button2_Click(object sender, EventArgs e)
+        {
+            QRPayment qr = new QRPayment();
+            qr.Show();
+            this.Hide();
+        }
+
+        private void button3_Click(object sender, EventArgs e)
+        {
+            CancelTransactionForm cf = new CancelTransactionForm();
+            cf.Show();
+            cf.Hide();
+        }
     }
 }

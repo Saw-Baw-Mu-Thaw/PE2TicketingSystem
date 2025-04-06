@@ -52,7 +52,7 @@
             this.pbLogo.BackColor = System.Drawing.SystemColors.ButtonFace;
             this.pbLogo.Image = global::UI.Properties.Resources.Locomotive_Train_Transportation_Logo1;
             this.pbLogo.Location = new System.Drawing.Point(44, 78);
-            this.pbLogo.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.pbLogo.Margin = new System.Windows.Forms.Padding(2);
             this.pbLogo.Name = "pbLogo";
             this.pbLogo.Size = new System.Drawing.Size(205, 223);
             this.pbLogo.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
@@ -62,37 +62,40 @@
             // btnBenThanh
             // 
             this.btnBenThanh.Location = new System.Drawing.Point(311, 135);
-            this.btnBenThanh.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.btnBenThanh.Margin = new System.Windows.Forms.Padding(2);
             this.btnBenThanh.Name = "btnBenThanh";
             this.btnBenThanh.Size = new System.Drawing.Size(160, 54);
             this.btnBenThanh.TabIndex = 5;
             this.btnBenThanh.Text = "Ben Thanh Station";
             this.btnBenThanh.UseVisualStyleBackColor = true;
+            this.btnBenThanh.Click += new System.EventHandler(this.btnBenThanh_Click);
             // 
             // btnOperaHouse
             // 
             this.btnOperaHouse.Location = new System.Drawing.Point(311, 197);
-            this.btnOperaHouse.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.btnOperaHouse.Margin = new System.Windows.Forms.Padding(2);
             this.btnOperaHouse.Name = "btnOperaHouse";
             this.btnOperaHouse.Size = new System.Drawing.Size(160, 54);
             this.btnOperaHouse.TabIndex = 6;
             this.btnOperaHouse.Text = "Opera House";
             this.btnOperaHouse.UseVisualStyleBackColor = true;
+            this.btnOperaHouse.Click += new System.EventHandler(this.btnOperaHouse_Click);
             // 
             // btnThuDuc
             // 
             this.btnThuDuc.Location = new System.Drawing.Point(311, 255);
-            this.btnThuDuc.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.btnThuDuc.Margin = new System.Windows.Forms.Padding(2);
             this.btnThuDuc.Name = "btnThuDuc";
             this.btnThuDuc.Size = new System.Drawing.Size(160, 54);
             this.btnThuDuc.TabIndex = 7;
             this.btnThuDuc.Text = "Thu Duc";
             this.btnThuDuc.UseVisualStyleBackColor = true;
+            this.btnThuDuc.Click += new System.EventHandler(this.btnThuDuc_Click);
             // 
             // btnCancel
             // 
             this.btnCancel.Location = new System.Drawing.Point(496, 316);
-            this.btnCancel.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.btnCancel.Margin = new System.Windows.Forms.Padding(2);
             this.btnCancel.Name = "btnCancel";
             this.btnCancel.Size = new System.Drawing.Size(95, 34);
             this.btnCancel.TabIndex = 8;
@@ -111,7 +114,7 @@
             this.Controls.Add(this.btnBenThanh);
             this.Controls.Add(this.pbLogo);
             this.Controls.Add(this.lblSelectDestination);
-            this.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.Margin = new System.Windows.Forms.Padding(2);
             this.Name = "SelectDestinationForm";
             this.Text = "Select Destination";
             this.Load += new System.EventHandler(this.SelectDestinationFormEng_Load);

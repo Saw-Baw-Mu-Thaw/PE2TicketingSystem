@@ -12,9 +12,26 @@ namespace UI
 {
     public partial class CardInsertForm: Form
     {
+        private System.Windows.Forms.Timer timer = new Timer();
+
         public CardInsertForm()
         {
             InitializeComponent();
+        }
+
+        private void CardInsertForm_Load(object sender, EventArgs e)
+        {
+            timer.Interval = 7000;
+            timer.Tick += new EventHandler(changeForms);
+            timer.Start();
+        }
+
+        private void changeForms(object o, EventArgs e)
+        {
+            PaymentSuccessfulForm psf = new PaymentSuccessfulForm();
+            psf.Show();
+            timer.Stop();
+            this.Hide();
         }
     }
 }

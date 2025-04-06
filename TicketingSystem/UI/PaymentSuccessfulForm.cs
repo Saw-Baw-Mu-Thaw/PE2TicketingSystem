@@ -12,6 +12,8 @@ namespace UI
 {
     public partial class PaymentSuccessfulForm: Form
     {
+        private System.Windows.Forms.Timer timer = new Timer();
+
         public PaymentSuccessfulForm()
         {
             InitializeComponent();
@@ -19,12 +21,22 @@ namespace UI
 
         private void label1_Click(object sender, EventArgs e)
         {
-
+            
         }
 
         private void PaymentSuccessfulForm_Load(object sender, EventArgs e)
         {
+            timer.Interval = 5000;
+            timer.Tick += new EventHandler(goToMain);
+            timer.Start();
+        }
 
+        private void goToMain(object o, EventArgs e)
+        {
+            Main m = new Main();
+            m.Show();
+            timer.Stop();
+            this.Hide();
         }
     }
 }

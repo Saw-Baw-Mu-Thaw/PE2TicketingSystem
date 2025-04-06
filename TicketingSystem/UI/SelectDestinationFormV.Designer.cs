@@ -39,9 +39,10 @@
             // 
             // btnCancelV
             // 
-            this.btnCancelV.Location = new System.Drawing.Point(638, 352);
+            this.btnCancelV.Location = new System.Drawing.Point(478, 282);
+            this.btnCancelV.Margin = new System.Windows.Forms.Padding(2);
             this.btnCancelV.Name = "btnCancelV";
-            this.btnCancelV.Size = new System.Drawing.Size(127, 43);
+            this.btnCancelV.Size = new System.Drawing.Size(95, 34);
             this.btnCancelV.TabIndex = 14;
             this.btnCancelV.Text = "Hủy";
             this.btnCancelV.UseVisualStyleBackColor = true;
@@ -49,37 +50,44 @@
             // 
             // btnThuDuc
             // 
-            this.btnThuDuc.Location = new System.Drawing.Point(392, 276);
+            this.btnThuDuc.Location = new System.Drawing.Point(294, 221);
+            this.btnThuDuc.Margin = new System.Windows.Forms.Padding(2);
             this.btnThuDuc.Name = "btnThuDuc";
-            this.btnThuDuc.Size = new System.Drawing.Size(214, 67);
+            this.btnThuDuc.Size = new System.Drawing.Size(160, 54);
             this.btnThuDuc.TabIndex = 13;
             this.btnThuDuc.Text = "Thu Duc";
             this.btnThuDuc.UseVisualStyleBackColor = true;
+            this.btnThuDuc.Click += new System.EventHandler(this.btnThuDuc_Click);
             // 
             // btnOperaHouse
             // 
-            this.btnOperaHouse.Location = new System.Drawing.Point(392, 203);
+            this.btnOperaHouse.Location = new System.Drawing.Point(294, 162);
+            this.btnOperaHouse.Margin = new System.Windows.Forms.Padding(2);
             this.btnOperaHouse.Name = "btnOperaHouse";
-            this.btnOperaHouse.Size = new System.Drawing.Size(214, 67);
+            this.btnOperaHouse.Size = new System.Drawing.Size(160, 54);
             this.btnOperaHouse.TabIndex = 12;
             this.btnOperaHouse.Text = "Opera House";
             this.btnOperaHouse.UseVisualStyleBackColor = true;
+            this.btnOperaHouse.Click += new System.EventHandler(this.btnOperaHouse_Click);
             // 
             // btnBenThanhV
             // 
-            this.btnBenThanhV.Location = new System.Drawing.Point(392, 126);
+            this.btnBenThanhV.Location = new System.Drawing.Point(294, 101);
+            this.btnBenThanhV.Margin = new System.Windows.Forms.Padding(2);
             this.btnBenThanhV.Name = "btnBenThanhV";
-            this.btnBenThanhV.Size = new System.Drawing.Size(214, 67);
+            this.btnBenThanhV.Size = new System.Drawing.Size(160, 54);
             this.btnBenThanhV.TabIndex = 11;
             this.btnBenThanhV.Text = "Bến Thành Station";
             this.btnBenThanhV.UseVisualStyleBackColor = true;
+            this.btnBenThanhV.Click += new System.EventHandler(this.btnBenThanhV_Click);
             // 
             // lblSelectDestinationV
             // 
             this.lblSelectDestinationV.AutoSize = true;
-            this.lblSelectDestinationV.Location = new System.Drawing.Point(356, 69);
+            this.lblSelectDestinationV.Location = new System.Drawing.Point(267, 55);
+            this.lblSelectDestinationV.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.lblSelectDestinationV.Name = "lblSelectDestinationV";
-            this.lblSelectDestinationV.Size = new System.Drawing.Size(320, 25);
+            this.lblSelectDestinationV.Size = new System.Drawing.Size(235, 20);
             this.lblSelectDestinationV.TabIndex = 9;
             this.lblSelectDestinationV.Text = "Vui lòng chọn điểm đến của bạn";
             // 
@@ -87,26 +95,28 @@
             // 
             this.pbLogo.BackColor = System.Drawing.SystemColors.ButtonFace;
             this.pbLogo.Image = global::UI.Properties.Resources.Locomotive_Train_Transportation_Logo1;
-            this.pbLogo.Location = new System.Drawing.Point(36, 55);
+            this.pbLogo.Location = new System.Drawing.Point(27, 44);
+            this.pbLogo.Margin = new System.Windows.Forms.Padding(2);
             this.pbLogo.Name = "pbLogo";
-            this.pbLogo.Size = new System.Drawing.Size(273, 279);
+            this.pbLogo.Size = new System.Drawing.Size(205, 223);
             this.pbLogo.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
             this.pbLogo.TabIndex = 10;
             this.pbLogo.TabStop = false;
             // 
             // SelectDestinationFormV
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(12F, 25F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(9F, 20F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(800, 450);
+            this.ClientSize = new System.Drawing.Size(600, 360);
             this.Controls.Add(this.btnCancelV);
             this.Controls.Add(this.btnThuDuc);
             this.Controls.Add(this.btnOperaHouse);
             this.Controls.Add(this.btnBenThanhV);
             this.Controls.Add(this.pbLogo);
             this.Controls.Add(this.lblSelectDestinationV);
+            this.Margin = new System.Windows.Forms.Padding(2);
             this.Name = "SelectDestinationFormV";
-            this.Text = "SelectDestinationFormV";
+            this.Text = "Select Destination";
             ((System.ComponentModel.ISupportInitialize)(this.pbLogo)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();

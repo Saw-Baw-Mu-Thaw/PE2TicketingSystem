@@ -12,9 +12,26 @@ namespace UI
 {
     public partial class PaymentSuccessfulFormMm: Form
     {
+        private System.Windows.Forms.Timer timer = new Timer();
+
         public PaymentSuccessfulFormMm()
         {
             InitializeComponent();
+        }
+
+        private void PaymentSuccessfulFormMm_Load(object sender, EventArgs e)
+        {
+            timer.Interval = 7000;
+            timer.Tick += new EventHandler(goToMain);
+            timer.Start();
+        }
+
+        private void goToMain(object o, EventArgs e)
+        {
+            Main main = new Main();
+            main.Show();
+            timer.Stop();
+            this.Hide();
         }
     }
 }

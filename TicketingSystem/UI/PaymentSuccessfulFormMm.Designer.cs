@@ -77,6 +77,7 @@
             this.Controls.Add(this.pbLogo);
             this.Name = "PaymentSuccessfulFormMm";
             this.Text = "Payment Successful";
+            this.Load += new System.EventHandler(this.PaymentSuccessfulFormMm_Load);
             ((System.ComponentModel.ISupportInitialize)(this.pbLogo)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();

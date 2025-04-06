@@ -23,5 +23,26 @@ namespace UI
             cancelForm.Show();
             this.Hide();
         }
+
+        private void btnBenThanhMm_Click(object sender, EventArgs e)
+        {
+            SelectOptionMm so = new SelectOptionMm();
+            so.Show();
+            this.Hide();
+        }
+
+        private void btnOperaHouseMm_Click(object sender, EventArgs e)
+        {
+            SelectOptionMm so = new SelectOptionMm();
+            so.Show();
+            this.Hide();
+        }
+
+        private void btnThuDucMm_Click(object sender, EventArgs e)
+        {
+            SelectOptionMm so = new SelectOptionMm();
+            so.Show();
+            this.Hide();
+        }
     }
 }

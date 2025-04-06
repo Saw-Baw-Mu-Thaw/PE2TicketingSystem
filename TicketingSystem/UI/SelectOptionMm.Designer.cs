@@ -91,6 +91,7 @@
             this.button2.TabIndex = 11;
             this.button2.Text = "QR Code";
             this.button2.UseVisualStyleBackColor = true;
+            this.button2.Click += new System.EventHandler(this.button2_Click);
             // 
             // button1
             // 
@@ -100,6 +101,7 @@
             this.button1.TabIndex = 10;
             this.button1.Text = "credit ကတ်";
             this.button1.UseVisualStyleBackColor = true;
+            this.button1.Click += new System.EventHandler(this.button1_Click);
             // 
             // button3
             // 
@@ -109,6 +111,7 @@
             this.button3.TabIndex = 15;
             this.button3.Text = "ပယ်ဖျက်မည်";
             this.button3.UseVisualStyleBackColor = true;
+            this.button3.Click += new System.EventHandler(this.button3_Click);
             // 
             // SelectOptionMm
             // 
