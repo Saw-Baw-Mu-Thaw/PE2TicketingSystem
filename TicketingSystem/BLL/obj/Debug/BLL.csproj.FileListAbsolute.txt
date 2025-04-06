@@ -4,3 +4,9 @@ C:\Users\HP\programming\SE\SE PE 2\TicketingSystem\TicketingSystem\BLL\obj\Debug
 C:\Users\HP\programming\SE\SE PE 2\TicketingSystem\TicketingSystem\BLL\obj\Debug\BLL.csproj.CoreCompileInputs.cache
 C:\Users\HP\programming\SE\SE PE 2\TicketingSystem\TicketingSystem\BLL\obj\Debug\BLL.dll
 C:\Users\HP\programming\SE\SE PE 2\TicketingSystem\TicketingSystem\BLL\obj\Debug\BLL.pdb
+D:\2nd year\Software Engineering\Labs\Assignment1(TVM)\TicketingSystem\BLL\bin\Debug\BLL.dll
+D:\2nd year\Software Engineering\Labs\Assignment1(TVM)\TicketingSystem\BLL\bin\Debug\BLL.pdb
+D:\2nd year\Software Engineering\Labs\Assignment1(TVM)\TicketingSystem\BLL\obj\Debug\BLL.csproj.AssemblyReference.cache
+D:\2nd year\Software Engineering\Labs\Assignment1(TVM)\TicketingSystem\BLL\obj\Debug\BLL.csproj.CoreCompileInputs.cache
+D:\2nd year\Software Engineering\Labs\Assignment1(TVM)\TicketingSystem\BLL\obj\Debug\BLL.dll
+D:\2nd year\Software Engineering\Labs\Assignment1(TVM)\TicketingSystem\BLL\obj\Debug\BLL.pdb

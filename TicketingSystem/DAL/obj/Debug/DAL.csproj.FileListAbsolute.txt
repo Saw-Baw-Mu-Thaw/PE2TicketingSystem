@@ -4,3 +4,9 @@ C:\Users\HP\programming\SE\SE PE 2\TicketingSystem\TicketingSystem\DAL\obj\Debug
 C:\Users\HP\programming\SE\SE PE 2\TicketingSystem\TicketingSystem\DAL\obj\Debug\DAL.csproj.CoreCompileInputs.cache
 C:\Users\HP\programming\SE\SE PE 2\TicketingSystem\TicketingSystem\DAL\obj\Debug\DAL.dll
 C:\Users\HP\programming\SE\SE PE 2\TicketingSystem\TicketingSystem\DAL\obj\Debug\DAL.pdb
+D:\2nd year\Software Engineering\Labs\Assignment1(TVM)\TicketingSystem\DAL\bin\Debug\DAL.dll
+D:\2nd year\Software Engineering\Labs\Assignment1(TVM)\TicketingSystem\DAL\bin\Debug\DAL.pdb
+D:\2nd year\Software Engineering\Labs\Assignment1(TVM)\TicketingSystem\DAL\obj\Debug\DAL.csproj.AssemblyReference.cache
+D:\2nd year\Software Engineering\Labs\Assignment1(TVM)\TicketingSystem\DAL\obj\Debug\DAL.csproj.CoreCompileInputs.cache
+D:\2nd year\Software Engineering\Labs\Assignment1(TVM)\TicketingSystem\DAL\obj\Debug\DAL.dll
+D:\2nd year\Software Engineering\Labs\Assignment1(TVM)\TicketingSystem\DAL\obj\Debug\DAL.pdb

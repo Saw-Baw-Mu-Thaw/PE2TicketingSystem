@@ -1,0 +1,205 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\2nd year\\Software Engineering\\Labs\\Assignment1(TVM)\\TicketingSystem\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{114F0976-A978-4698-89F0-E9C590385A18}|UI\\UI.csproj|d:\\2nd year\\software engineering\\labs\\assignment1(tvm)\\ticketingsystem\\ui\\selectlanguageform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{114F0976-A978-4698-89F0-E9C590385A18}|UI\\UI.csproj|solutionrelative:ui\\selectlanguageform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{114F0976-A978-4698-89F0-E9C590385A18}|UI\\UI.csproj|d:\\2nd year\\software engineering\\labs\\assignment1(tvm)\\ticketingsystem\\ui\\selectdestinationform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{114F0976-A978-4698-89F0-E9C590385A18}|UI\\UI.csproj|solutionrelative:ui\\selectdestinationform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{114F0976-A978-4698-89F0-E9C590385A18}|UI\\UI.csproj|d:\\2nd year\\software engineering\\labs\\assignment1(tvm)\\ticketingsystem\\ui\\selectdestinationform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{114F0976-A978-4698-89F0-E9C590385A18}|UI\\UI.csproj|solutionrelative:ui\\selectdestinationform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{114F0976-A978-4698-89F0-E9C590385A18}|UI\\UI.csproj|d:\\2nd year\\software engineering\\labs\\assignment1(tvm)\\ticketingsystem\\ui\\selectlanguageform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{114F0976-A978-4698-89F0-E9C590385A18}|UI\\UI.csproj|solutionrelative:ui\\selectlanguageform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{114F0976-A978-4698-89F0-E9C590385A18}|UI\\UI.csproj|d:\\2nd year\\software engineering\\labs\\assignment1(tvm)\\ticketingsystem\\ui\\selectdestinationformmm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{114F0976-A978-4698-89F0-E9C590385A18}|UI\\UI.csproj|solutionrelative:ui\\selectdestinationformmm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{114F0976-A978-4698-89F0-E9C590385A18}|UI\\UI.csproj|d:\\2nd year\\software engineering\\labs\\assignment1(tvm)\\ticketingsystem\\ui\\selectdestinationformmm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{114F0976-A978-4698-89F0-E9C590385A18}|UI\\UI.csproj|solutionrelative:ui\\selectdestinationformmm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{114F0976-A978-4698-89F0-E9C590385A18}|UI\\UI.csproj|d:\\2nd year\\software engineering\\labs\\assignment1(tvm)\\ticketingsystem\\ui\\main.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{114F0976-A978-4698-89F0-E9C590385A18}|UI\\UI.csproj|solutionrelative:ui\\main.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{114F0976-A978-4698-89F0-E9C590385A18}|UI\\UI.csproj|d:\\2nd year\\software engineering\\labs\\assignment1(tvm)\\ticketingsystem\\ui\\canceltransactionform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{114F0976-A978-4698-89F0-E9C590385A18}|UI\\UI.csproj|solutionrelative:ui\\canceltransactionform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{114F0976-A978-4698-89F0-E9C590385A18}|UI\\UI.csproj|d:\\2nd year\\software engineering\\labs\\assignment1(tvm)\\ticketingsystem\\ui\\canceltransactionform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{114F0976-A978-4698-89F0-E9C590385A18}|UI\\UI.csproj|solutionrelative:ui\\canceltransactionform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{114F0976-A978-4698-89F0-E9C590385A18}|UI\\UI.csproj|d:\\2nd year\\software engineering\\labs\\assignment1(tvm)\\ticketingsystem\\ui\\main.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{114F0976-A978-4698-89F0-E9C590385A18}|UI\\UI.csproj|solutionrelative:ui\\main.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 5,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{de1fc918-f32e-4dd7-a915-1792a051f26b}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:1:0:{e8b06f52-6d01-11d2-aa7d-00c04f990343}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "SelectLanguageForm.cs [Design]",
+              "DocumentMoniker": "D:\\2nd year\\Software Engineering\\Labs\\Assignment1(TVM)\\TicketingSystem\\UI\\SelectLanguageForm.cs",
+              "RelativeDocumentMoniker": "UI\\SelectLanguageForm.cs",
+              "ToolTip": "D:\\2nd year\\Software Engineering\\Labs\\Assignment1(TVM)\\TicketingSystem\\UI\\SelectLanguageForm.cs [Design]",
+              "RelativeToolTip": "UI\\SelectLanguageForm.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-06T06:56:53.293Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "SelectLanguageForm.cs",
+              "DocumentMoniker": "D:\\2nd year\\Software Engineering\\Labs\\Assignment1(TVM)\\TicketingSystem\\UI\\SelectLanguageForm.cs",
+              "RelativeDocumentMoniker": "UI\\SelectLanguageForm.cs",
+              "ToolTip": "D:\\2nd year\\Software Engineering\\Labs\\Assignment1(TVM)\\TicketingSystem\\UI\\SelectLanguageForm.cs",
+              "RelativeToolTip": "UI\\SelectLanguageForm.cs",
+              "ViewState": "AgIAAAUAAAAAAAAAAAAAAA0AAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-06T07:51:34.436Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "SelectDestinationForm.cs [Design]",
+              "DocumentMoniker": "D:\\2nd year\\Software Engineering\\Labs\\Assignment1(TVM)\\TicketingSystem\\UI\\SelectDestinationForm.cs",
+              "RelativeDocumentMoniker": "UI\\SelectDestinationForm.cs",
+              "ToolTip": "D:\\2nd year\\Software Engineering\\Labs\\Assignment1(TVM)\\TicketingSystem\\UI\\SelectDestinationForm.cs [Design]",
+              "RelativeToolTip": "UI\\SelectDestinationForm.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-06T07:55:56.936Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "SelectDestinationForm.cs",
+              "DocumentMoniker": "D:\\2nd year\\Software Engineering\\Labs\\Assignment1(TVM)\\TicketingSystem\\UI\\SelectDestinationForm.cs",
+              "RelativeDocumentMoniker": "UI\\SelectDestinationForm.cs",
+              "ToolTip": "D:\\2nd year\\Software Engineering\\Labs\\Assignment1(TVM)\\TicketingSystem\\UI\\SelectDestinationForm.cs",
+              "RelativeToolTip": "UI\\SelectDestinationForm.cs",
+              "ViewState": "AgIAAA4AAAAAAAAAAAAAwA4AAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-06T07:56:01.693Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "SelectDestinationFormMm.cs",
+              "DocumentMoniker": "D:\\2nd year\\Software Engineering\\Labs\\Assignment1(TVM)\\TicketingSystem\\UI\\SelectDestinationFormMm.cs",
+              "RelativeDocumentMoniker": "UI\\SelectDestinationFormMm.cs",
+              "ToolTip": "D:\\2nd year\\Software Engineering\\Labs\\Assignment1(TVM)\\TicketingSystem\\UI\\SelectDestinationFormMm.cs",
+              "RelativeToolTip": "UI\\SelectDestinationFormMm.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-06T08:11:25.69Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "SelectDestinationFormMm.cs [Design]",
+              "DocumentMoniker": "D:\\2nd year\\Software Engineering\\Labs\\Assignment1(TVM)\\TicketingSystem\\UI\\SelectDestinationFormMm.cs",
+              "RelativeDocumentMoniker": "UI\\SelectDestinationFormMm.cs",
+              "ToolTip": "D:\\2nd year\\Software Engineering\\Labs\\Assignment1(TVM)\\TicketingSystem\\UI\\SelectDestinationFormMm.cs [Design]",
+              "RelativeToolTip": "UI\\SelectDestinationFormMm.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-06T08:11:23.498Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "CancelTransactionForm.cs [Design]",
+              "DocumentMoniker": "D:\\2nd year\\Software Engineering\\Labs\\Assignment1(TVM)\\TicketingSystem\\UI\\CancelTransactionForm.cs",
+              "RelativeDocumentMoniker": "UI\\CancelTransactionForm.cs",
+              "ToolTip": "D:\\2nd year\\Software Engineering\\Labs\\Assignment1(TVM)\\TicketingSystem\\UI\\CancelTransactionForm.cs [Design]",
+              "RelativeToolTip": "UI\\CancelTransactionForm.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-06T08:01:42.04Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Main.cs [Design]",
+              "DocumentMoniker": "D:\\2nd year\\Software Engineering\\Labs\\Assignment1(TVM)\\TicketingSystem\\UI\\Main.cs",
+              "RelativeDocumentMoniker": "UI\\Main.cs",
+              "ToolTip": "D:\\2nd year\\Software Engineering\\Labs\\Assignment1(TVM)\\TicketingSystem\\UI\\Main.cs [Design]",
+              "RelativeToolTip": "UI\\Main.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-06T08:01:50.788Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "Main.cs",
+              "DocumentMoniker": "D:\\2nd year\\Software Engineering\\Labs\\Assignment1(TVM)\\TicketingSystem\\UI\\Main.cs",
+              "RelativeDocumentMoniker": "UI\\Main.cs",
+              "ToolTip": "D:\\2nd year\\Software Engineering\\Labs\\Assignment1(TVM)\\TicketingSystem\\UI\\Main.cs",
+              "RelativeToolTip": "UI\\Main.cs",
+              "ViewState": "AgIAAAUAAAAAAAAAAAAQwBUAAAAMAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-06T07:38:16.882Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "CancelTransactionForm.cs",
+              "DocumentMoniker": "D:\\2nd year\\Software Engineering\\Labs\\Assignment1(TVM)\\TicketingSystem\\UI\\CancelTransactionForm.cs",
+              "RelativeDocumentMoniker": "UI\\CancelTransactionForm.cs",
+              "ToolTip": "D:\\2nd year\\Software Engineering\\Labs\\Assignment1(TVM)\\TicketingSystem\\UI\\CancelTransactionForm.cs",
+              "RelativeToolTip": "UI\\CancelTransactionForm.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABUAAAAnAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-06T08:00:57.287Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c64b9c2-e352-428e-a56d-0ace190b99a6}"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
