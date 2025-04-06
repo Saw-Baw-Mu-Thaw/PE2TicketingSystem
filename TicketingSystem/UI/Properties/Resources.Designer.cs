@@ -73,6 +73,26 @@ namespace UI.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap credit_card {
+            get {
+                object obj = ResourceManager.GetObject("credit card", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap frame {
+            get {
+                object obj = ResourceManager.GetObject("frame", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap Locomotive_Train_Transportation_Logo {
             get {
                 object obj = ResourceManager.GetObject("Locomotive Train Transportation Logo", resourceCulture);
@@ -96,6 +116,16 @@ namespace UI.Properties {
         internal static System.Drawing.Bitmap Myanmar_flag {
             get {
                 object obj = ResourceManager.GetObject("Myanmar flag", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap QR {
+            get {
+                object obj = ResourceManager.GetObject("QR", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }

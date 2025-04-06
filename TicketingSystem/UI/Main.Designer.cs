@@ -35,9 +35,10 @@
             // 
             // btnBuyTicket
             // 
-            this.btnBuyTicket.Location = new System.Drawing.Point(304, 353);
+            this.btnBuyTicket.Location = new System.Drawing.Point(228, 282);
+            this.btnBuyTicket.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.btnBuyTicket.Name = "btnBuyTicket";
-            this.btnBuyTicket.Size = new System.Drawing.Size(156, 61);
+            this.btnBuyTicket.Size = new System.Drawing.Size(117, 49);
             this.btnBuyTicket.TabIndex = 0;
             this.btnBuyTicket.Text = "Buy Ticket";
             this.btnBuyTicket.UseVisualStyleBackColor = true;
@@ -47,22 +48,24 @@
             // 
             this.pbLogo.BackColor = System.Drawing.SystemColors.ButtonFace;
             this.pbLogo.Image = global::UI.Properties.Resources.Locomotive_Train_Transportation_Logo1;
-            this.pbLogo.Location = new System.Drawing.Point(228, 12);
+            this.pbLogo.Location = new System.Drawing.Point(171, 10);
+            this.pbLogo.Margin = new System.Windows.Forms.Padding(2);
             this.pbLogo.Name = "pbLogo";
-            this.pbLogo.Size = new System.Drawing.Size(319, 321);
+            this.pbLogo.Size = new System.Drawing.Size(239, 257);
             this.pbLogo.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
             this.pbLogo.TabIndex = 1;
             this.pbLogo.TabStop = false;
             // 
             // Main
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(12F, 25F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(9F, 20F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(800, 450);
+            this.ClientSize = new System.Drawing.Size(600, 360);
             this.Controls.Add(this.pbLogo);
             this.Controls.Add(this.btnBuyTicket);
+            this.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.Name = "Main";
-            this.Text = "Form1";
+            this.Text = "Main";
             ((System.ComponentModel.ISupportInitialize)(this.pbLogo)).EndInit();
             this.ResumeLayout(false);
 

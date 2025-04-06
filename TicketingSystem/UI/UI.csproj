@@ -62,14 +62,74 @@
     <Compile Include="CancelTransactionForm.Designer.cs">
       <DependentUpon>CancelTransactionForm.cs</DependentUpon>
     </Compile>
+    <Compile Include="CardInsertForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="CardInsertForm.Designer.cs">
+      <DependentUpon>CardInsertForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="CardInsertFormMm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="CardInsertFormMm.Designer.cs">
+      <DependentUpon>CardInsertFormMm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="CardInsertFormV.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="CardInsertFormV.Designer.cs">
+      <DependentUpon>CardInsertFormV.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ErrorForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ErrorForm.Designer.cs">
+      <DependentUpon>ErrorForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ErrorFormMm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ErrorFormMm.Designer.cs">
+      <DependentUpon>ErrorFormMm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ErrorFormV.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ErrorFormV.Designer.cs">
+      <DependentUpon>ErrorFormV.cs</DependentUpon>
+    </Compile>
     <Compile Include="Main.cs">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="Main.Designer.cs">
       <DependentUpon>Main.cs</DependentUpon>
     </Compile>
+    <Compile Include="PaymentSuccessfulForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="PaymentSuccessfulForm.Designer.cs">
+      <DependentUpon>PaymentSuccessfulForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="PaymentSuccessfulFormMm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="PaymentSuccessfulFormMm.Designer.cs">
+      <DependentUpon>PaymentSuccessfulFormMm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="PaymentSuccessfulFormV.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="PaymentSuccessfulFormV.Designer.cs">
+      <DependentUpon>PaymentSuccessfulFormV.cs</DependentUpon>
+    </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="QRPaymentForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="QRPaymentForm.Designer.cs">
+      <DependentUpon>QRPaymentForm.cs</DependentUpon>
+    </Compile>
     <Compile Include="SelectDestinationForm.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -94,11 +154,56 @@
     <Compile Include="SelectLanguageForm.Designer.cs">
       <DependentUpon>SelectLanguageForm.cs</DependentUpon>
     </Compile>
+    <Compile Include="SelectOption.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="SelectOption.Designer.cs">
+      <DependentUpon>SelectOption.cs</DependentUpon>
+    </Compile>
+    <Compile Include="SelectOptionFormV.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="SelectOptionFormV.Designer.cs">
+      <DependentUpon>SelectOptionFormV.cs</DependentUpon>
+    </Compile>
+    <Compile Include="SelectOptionMm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="SelectOptionMm.Designer.cs">
+      <DependentUpon>SelectOptionMm.cs</DependentUpon>
+    </Compile>
     <EmbeddedResource Include="CancelTransactionForm.resx">
       <DependentUpon>CancelTransactionForm.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="CardInsertForm.resx">
+      <DependentUpon>CardInsertForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="CardInsertFormMm.resx">
+      <DependentUpon>CardInsertFormMm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="CardInsertFormV.resx">
+      <DependentUpon>CardInsertFormV.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ErrorForm.resx">
+      <DependentUpon>ErrorForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ErrorFormMm.resx">
+      <DependentUpon>ErrorFormMm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ErrorFormV.resx">
+      <DependentUpon>ErrorFormV.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Main.resx">
       <DependentUpon>Main.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PaymentSuccessfulForm.resx">
+      <DependentUpon>PaymentSuccessfulForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PaymentSuccessfulFormMm.resx">
+      <DependentUpon>PaymentSuccessfulFormMm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PaymentSuccessfulFormV.resx">
+      <DependentUpon>PaymentSuccessfulFormV.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
@@ -110,6 +215,9 @@
       <DependentUpon>Resources.resx</DependentUpon>
       <DesignTime>True</DesignTime>
     </Compile>
+    <EmbeddedResource Include="QRPaymentForm.resx">
+      <DependentUpon>QRPaymentForm.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="SelectDestinationForm.resx">
       <DependentUpon>SelectDestinationForm.cs</DependentUpon>
     </EmbeddedResource>
@@ -121,6 +229,15 @@
     </EmbeddedResource>
     <EmbeddedResource Include="SelectLanguageForm.resx">
       <DependentUpon>SelectLanguageForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="SelectOption.resx">
+      <DependentUpon>SelectOption.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="SelectOptionFormV.resx">
+      <DependentUpon>SelectOptionFormV.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="SelectOptionMm.resx">
+      <DependentUpon>SelectOptionMm.cs</DependentUpon>
     </EmbeddedResource>
     <None Include="packages.config" />
     <None Include="Properties\Settings.settings">
@@ -147,6 +264,11 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="Resources\VietnamFlag.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Resources\credit card.jpg" />
+    <None Include="Resources\frame.png" />
+    <Content Include="Resources\QR.png" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <Target Name="EnsureNuGetPackageBuildImports" BeforeTargets="PrepareForBuild">
