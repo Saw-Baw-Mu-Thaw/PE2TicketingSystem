@@ -270,6 +270,16 @@
     <None Include="Resources\frame.png" />
     <Content Include="Resources\QR.png" />
   </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\BLL\BLL.csproj">
+      <Project>{a05086bf-5596-41b2-8622-a52b04869d69}</Project>
+      <Name>BLL</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\DAL\DAL.csproj">
+      <Project>{5fd4c080-355e-481d-a43a-b3a37064f09d}</Project>
+      <Name>DAL</Name>
+    </ProjectReference>
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <Target Name="EnsureNuGetPackageBuildImports" BeforeTargets="PrepareForBuild">
     <PropertyGroup>

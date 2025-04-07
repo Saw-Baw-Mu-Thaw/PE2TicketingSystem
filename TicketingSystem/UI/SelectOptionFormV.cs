@@ -35,7 +35,7 @@ namespace UI
         {
             CancelTransactionForm cf = new CancelTransactionForm();
             cf.Show();
-            cf.Hide();
+            this.Hide();
         }
     }
 }

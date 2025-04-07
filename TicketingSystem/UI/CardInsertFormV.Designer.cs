@@ -38,17 +38,19 @@
             // 
             this.label1.AutoSize = true;
             this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 14F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label1.Location = new System.Drawing.Point(258, 159);
+            this.label1.Location = new System.Drawing.Point(332, 199);
+            this.label1.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(342, 32);
+            this.label1.Size = new System.Drawing.Size(455, 44);
             this.label1.TabIndex = 29;
             this.label1.Text = "Vui lòng chèn thẻ của bạn";
             // 
             // CancelBtn
             // 
-            this.CancelBtn.Location = new System.Drawing.Point(44, 313);
+            this.CancelBtn.Location = new System.Drawing.Point(59, 391);
+            this.CancelBtn.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.CancelBtn.Name = "CancelBtn";
-            this.CancelBtn.Size = new System.Drawing.Size(83, 35);
+            this.CancelBtn.Size = new System.Drawing.Size(111, 44);
             this.CancelBtn.TabIndex = 30;
             this.CancelBtn.Text = "Hủy bỏ";
             this.CancelBtn.UseVisualStyleBackColor = true;
@@ -57,22 +59,23 @@
             // 
             this.pbLogo.BackColor = System.Drawing.SystemColors.ButtonFace;
             this.pbLogo.Image = global::UI.Properties.Resources.Locomotive_Train_Transportation_Logo1;
-            this.pbLogo.Location = new System.Drawing.Point(44, 68);
-            this.pbLogo.Margin = new System.Windows.Forms.Padding(2);
+            this.pbLogo.Location = new System.Drawing.Point(59, 85);
+            this.pbLogo.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.pbLogo.Name = "pbLogo";
-            this.pbLogo.Size = new System.Drawing.Size(196, 221);
+            this.pbLogo.Size = new System.Drawing.Size(261, 276);
             this.pbLogo.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
             this.pbLogo.TabIndex = 28;
             this.pbLogo.TabStop = false;
             // 
             // CardInsertFormV
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(9F, 20F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(12F, 25F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(600, 360);
+            this.ClientSize = new System.Drawing.Size(800, 450);
             this.Controls.Add(this.CancelBtn);
             this.Controls.Add(this.label1);
             this.Controls.Add(this.pbLogo);
+            this.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.Name = "CardInsertFormV";
             this.Text = "Card Insert";
             this.Load += new System.EventHandler(this.CardInsertFormV_Load);

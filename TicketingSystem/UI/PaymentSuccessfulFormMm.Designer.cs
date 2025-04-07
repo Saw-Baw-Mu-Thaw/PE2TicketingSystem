@@ -37,10 +37,11 @@
             // label2
             // 
             this.label2.AutoSize = true;
-            this.label2.Font = new System.Drawing.Font("!MyMyanmar Universal", 14F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label2.Location = new System.Drawing.Point(286, 193);
+            this.label2.Font = new System.Drawing.Font("Microsoft Sans Serif", 14F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label2.Location = new System.Drawing.Point(409, 248);
+            this.label2.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(239, 47);
+            this.label2.Size = new System.Drawing.Size(236, 44);
             this.label2.TabIndex = 22;
             this.label2.Text = "ကျေးဇူးတင်ပါတယ်";
             // 
@@ -48,33 +49,35 @@
             // 
             this.label1.AllowDrop = true;
             this.label1.AutoSize = true;
-            this.label1.Font = new System.Drawing.Font("Myanmar Black", 16F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label1.Location = new System.Drawing.Point(286, 110);
+            this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 16F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label1.Location = new System.Drawing.Point(317, 165);
+            this.label1.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(251, 44);
+            this.label1.Size = new System.Drawing.Size(425, 51);
             this.label1.TabIndex = 21;
-            this.label1.Text = "ပိုက်ဆံ ရပြီးပါပြီး";
+            this.label1.Text = "ငွေဖြည့်သွင်းမှုအောင်မြင်ပါသည်";
             // 
             // pbLogo
             // 
             this.pbLogo.BackColor = System.Drawing.SystemColors.ButtonFace;
             this.pbLogo.Image = global::UI.Properties.Resources.Locomotive_Train_Transportation_Logo1;
-            this.pbLogo.Location = new System.Drawing.Point(23, 70);
-            this.pbLogo.Margin = new System.Windows.Forms.Padding(2);
+            this.pbLogo.Location = new System.Drawing.Point(31, 88);
+            this.pbLogo.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.pbLogo.Name = "pbLogo";
-            this.pbLogo.Size = new System.Drawing.Size(196, 221);
+            this.pbLogo.Size = new System.Drawing.Size(261, 276);
             this.pbLogo.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
             this.pbLogo.TabIndex = 20;
             this.pbLogo.TabStop = false;
             // 
             // PaymentSuccessfulFormMm
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(9F, 20F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(12F, 25F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(600, 360);
+            this.ClientSize = new System.Drawing.Size(800, 450);
             this.Controls.Add(this.label2);
             this.Controls.Add(this.label1);
             this.Controls.Add(this.pbLogo);
+            this.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.Name = "PaymentSuccessfulFormMm";
             this.Text = "Payment Successful";
             this.Load += new System.EventHandler(this.PaymentSuccessfulFormMm_Load);
