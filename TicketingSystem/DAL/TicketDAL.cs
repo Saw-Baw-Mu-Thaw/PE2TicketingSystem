@@ -10,10 +10,7 @@ namespace DAL
 {
     public class TicketDAL
     {
-        // change instanceName to "" if you don't have instance name
-        private static string instanceName = "";
-        private string connectionString = "Server=(local)"+instanceName+";Database=TicketVendorDB;Trusted_Connection=True;";
-        
+        private string connectionString = "Server=LAPTOP-AUJ7RD2D;Database=TicketVendorDB;Trusted_Connection=True;";
 
         // Get available destinations
         public DataTable GetDestinations()
