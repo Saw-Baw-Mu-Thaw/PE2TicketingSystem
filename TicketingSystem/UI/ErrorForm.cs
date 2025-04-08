@@ -17,5 +17,23 @@ namespace UI
             InitializeComponent();
         }
 
+        public ErrorForm(string res)
+        {
+
+        }
+
+        private void CancelBtn_Click(object sender, EventArgs e)
+        {
+            CancelTransactionForm ctf = new CancelTransactionForm();
+            ctf.Show();
+            this.Hide();
+        }
+
+        private void RetryBtn_Click(object sender, EventArgs e)
+        {
+            SelectDestinationForm sdf = new SelectDestinationForm();
+            sdf.Show();
+            this.Hide();
+        }
     }
 }

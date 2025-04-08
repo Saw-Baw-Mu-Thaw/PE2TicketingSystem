@@ -128,6 +128,7 @@
             this.Controls.Add(this.pbLogo);
             this.Name = "SelectOption";
             this.Text = "Select Option";
+            this.Load += new System.EventHandler(this.SelectOption_Load);
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pbLogo)).EndInit();

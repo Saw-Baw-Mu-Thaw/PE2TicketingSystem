@@ -26,21 +26,24 @@ namespace UI
 
         private void btnBenThanhV_Click(object sender, EventArgs e)
         {
-            SelectOptionFormV so = new SelectOptionFormV();
+            int destId = 1;
+            SelectOptionFormV so = new SelectOptionFormV(destId);
             so.Show();
             this.Hide();
         }
 
         private void btnOperaHouse_Click(object sender, EventArgs e)
         {
-            SelectOptionFormV so = new SelectOptionFormV();
+            int destId = 2;
+            SelectOptionFormV so = new SelectOptionFormV(destId);
             so.Show();
             this.Hide();
         }
 
         private void btnThuDuc_Click(object sender, EventArgs e)
         {
-            SelectOptionFormV so = new SelectOptionFormV();
+            int destId = 3;
+            SelectOptionFormV so = new SelectOptionFormV(destId);
             so.Show();
             this.Hide();
         }

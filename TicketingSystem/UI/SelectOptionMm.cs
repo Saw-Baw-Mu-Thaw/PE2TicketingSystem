@@ -12,21 +12,31 @@ namespace UI
 {
     public partial class SelectOptionMm: Form
     {
+        private int destId;
+
         public SelectOptionMm()
         {
             InitializeComponent();
         }
 
+        public SelectOptionMm(int destId)
+        {
+            this.destId = destId;
+            InitializeComponent();
+        }
+
         private void button1_Click(object sender, EventArgs e)
         {
-            CardInsertFormMm ci = new CardInsertFormMm();
+            string paymentMethod = "CreditCard";
+            CardInsertFormMm ci = new CardInsertFormMm(paymentMethod,destId);
             ci.Show();
             this.Hide();
         }
 
         private void button2_Click(object sender, EventArgs e)
         {
-            QRPayment qr = new QRPayment();
+            string paymentMethod = "CreditCard";
+            QRPayment qr = new QRPayment(paymentMethod,destId);
             qr.Show();
             this.Hide();
         }

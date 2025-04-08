@@ -36,7 +36,7 @@
             // btnBuyTicket
             // 
             this.btnBuyTicket.Location = new System.Drawing.Point(228, 282);
-            this.btnBuyTicket.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.btnBuyTicket.Margin = new System.Windows.Forms.Padding(2);
             this.btnBuyTicket.Name = "btnBuyTicket";
             this.btnBuyTicket.Size = new System.Drawing.Size(117, 49);
             this.btnBuyTicket.TabIndex = 0;
@@ -63,9 +63,10 @@
             this.ClientSize = new System.Drawing.Size(600, 360);
             this.Controls.Add(this.pbLogo);
             this.Controls.Add(this.btnBuyTicket);
-            this.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.Margin = new System.Windows.Forms.Padding(2);
             this.Name = "Main";
             this.Text = "Main";
+            this.Load += new System.EventHandler(this.Main_Load);
             ((System.ComponentModel.ISupportInitialize)(this.pbLogo)).EndInit();
             this.ResumeLayout(false);
 

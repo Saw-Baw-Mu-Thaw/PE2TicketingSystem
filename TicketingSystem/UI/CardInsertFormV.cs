@@ -1,4 +1,5 @@
-﻿using System;
+﻿using BLL;
+using System;
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
@@ -12,7 +13,21 @@ namespace UI
 {
     public partial class CardInsertFormV: Form
     {
+        private readonly TicketBLL service;
         private System.Windows.Forms.Timer timer = new Timer();
+        private string paymentMethod = "";
+        private int destId;
+        private int amount = 50_000;
+        private string res;
+
+        public CardInsertFormV(string paymentMethod, int destId)
+        {
+            this.paymentMethod = paymentMethod;
+            this.destId = destId;
+            service = new TicketBLL();
+            InitializeComponent();
+
+        }
 
         public CardInsertFormV()
         {
@@ -21,8 +36,17 @@ namespace UI
 
         private void CardInsertFormV_Load(object sender, EventArgs e)
         {
+            res = service.BuyTicket(destId, paymentMethod, amount);
             timer.Interval = 7000;
-            timer.Tick += new EventHandler(changeForms);
+            if (res.Contains("Insufficient"))
+            {
+                timer.Tick += new EventHandler(showError);
+            }
+            else
+            {
+                timer.Tick += new EventHandler(changeForms);
+            }
+
             timer.Start();
         }
 
@@ -30,6 +54,14 @@ namespace UI
         {
             PaymentSuccessfulFormV psf = new PaymentSuccessfulFormV();
             psf.Show();
+            timer.Stop();
+            this.Hide();
+        }
+
+        private void showError(object o, EventArgs e)
+        {
+            ErrorFormV ef = new ErrorFormV();
+            ef.Show();
             timer.Stop();
             this.Hide();
         }

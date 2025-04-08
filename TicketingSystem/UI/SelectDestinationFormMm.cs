@@ -4,6 +4,7 @@ using System.ComponentModel;
 using System.Data;
 using System.Drawing;
 using System.Linq;
+using System.Runtime.InteropServices;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
@@ -26,21 +27,24 @@ namespace UI
 
         private void btnBenThanhMm_Click(object sender, EventArgs e)
         {
-            SelectOptionMm so = new SelectOptionMm();
+            int destId = 1;
+            SelectOptionMm so = new SelectOptionMm(destId);
             so.Show();
             this.Hide();
         }
 
         private void btnOperaHouseMm_Click(object sender, EventArgs e)
         {
-            SelectOptionMm so = new SelectOptionMm();
+            int destId = 2;
+            SelectOptionMm so = new SelectOptionMm(destId);
             so.Show();
             this.Hide();
         }
 
         private void btnThuDucMm_Click(object sender, EventArgs e)
         {
-            SelectOptionMm so = new SelectOptionMm();
+            int destId = 3;
+            SelectOptionMm so = new SelectOptionMm(destId);
             so.Show();
             this.Hide();
         }
